@@ -3,7 +3,7 @@ services:
   postgres_cadastro: 
     container_name: postgres_cadastro_ifood
     image: postgres:12.2
-    enviroment: 
+    environment: 
       POSTGRES_USER: cadastro 
       POSTGRES_PASSWORD: cadastro
     ports:
